@@ -1,0 +1,10 @@
+
+*.iml
+
+projects/.idea/
+
+projects/Project1/.idea/
+
+*.class
+
+projects/Project2/.idea/
