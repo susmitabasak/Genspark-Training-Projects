@@ -1,5 +1,3 @@
-package genspark.projects.Project2.src.main.java;
-
 import java.util.Random;
 import java.util.Scanner;
 
@@ -21,11 +19,10 @@ public class GuessTheNumber {
                     guessed = false;
                     System.out.println("Take a guess");
                     int guess = in.nextInt();
-                    if (guess < secretNumber)
-                        System.out.println("Your guess is too low.");
-                    else if (guess > secretNumber)
-                        System.out.println("Your guess is too high.");
-                    else if (guess == secretNumber) {
+                    if(guess != secretNumber) {
+                        System.out.println(getLowOrHighMsg(guess, secretNumber));
+                    } else if (guess == secretNumber) {
+                        System.out.println(getGoodJobMsg(name, i));
                         System.out.println("Good job, " + name + "! You guessed my number in " + (i + 1) + " guesses!");
                         guessed = true;
                         break;
@@ -44,5 +41,18 @@ public class GuessTheNumber {
             System.out.println("Exception " + e.getMessage());
             e.printStackTrace();
         }
+    }
+
+    public static String getLowOrHighMsg(int guessedNumber, int secretNumber) {
+        String guessIsLowMsg = "Your guess is too low.";
+        String guessIsHighMsg = "Your guess is too high.";
+        if (guessedNumber < secretNumber)
+            return guessIsLowMsg;
+        else
+        return guessIsHighMsg;
+    }
+
+    public static String getGoodJobMsg(String name, int tries) {
+        return ("Good job, " + name + "! You guessed my number in " + (tries + 1) + " guesses!");
     }
 }
