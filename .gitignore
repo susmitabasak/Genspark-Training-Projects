@@ -8,3 +8,23 @@ projects/Project1/.idea/
 *.class
 
 projects/Project2/.idea/
+
+projects/Project1/src/.idea/misc.xml
+
+projects/Project1/src/.idea/modules.xml
+
+projects/Project1/src/.idea/workspace.xml
+
+projects/SpringProjects/XMLConfig/studentAssignmt/.mvn/wrapper/maven-wrapper.jar
+
+projects/SpringProjects/XMLConfig/studentAssignmt/mvnw
+
+projects/SpringProjects/XMLConfig/studentAssignmt/mvnw.cmd
+
+projects/SpringProjects/XMLConfig/studentAssignmt/.mvn/wrapper/maven-wrapper.properties
+
+projects/SpringProjects/XMLConfig/studentAssignmt/src/main/resources/application.properties
+
+projects/SpringProjects/XMLConfig/studentAssignmt/src/test/java/com/genspark/studentAssignmt/StudentAssignmtApplicationTests.java
+
+projects/pom.xml
