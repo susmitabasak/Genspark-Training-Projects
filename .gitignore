@@ -28,3 +28,13 @@ projects/SpringProjects/XMLConfig/studentAssignmt/src/main/resources/application
 projects/SpringProjects/XMLConfig/studentAssignmt/src/test/java/com/genspark/studentAssignmt/StudentAssignmtApplicationTests.java
 
 projects/pom.xml
+
+projects/SpringProjects/JavaConfig/studentAssignmt/.mvn/wrapper/maven-wrapper.jar
+
+projects/SpringProjects/JavaConfig/studentAssignmt/.mvn/wrapper/maven-wrapper.properties
+
+projects/SpringProjects/JavaConfig/studentAssignmt/mvnw
+
+projects/SpringProjects/JavaConfig/studentAssignmt/mvnw.cmd
+
+projects/SpringProjects/JavaConfig/studentAssignmt/src/test/java/com/genspark/studentAssignmt/StudentAssignmtApplicationTests.java
