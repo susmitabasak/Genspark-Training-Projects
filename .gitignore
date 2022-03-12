@@ -38,3 +38,11 @@ projects/SpringProjects/JavaConfig/studentAssignmt/mvnw
 projects/SpringProjects/JavaConfig/studentAssignmt/mvnw.cmd
 
 projects/SpringProjects/JavaConfig/studentAssignmt/src/test/java/com/genspark/studentAssignmt/StudentAssignmtApplicationTests.java
+
+projects/SpringProjects/LibraryBookProject/LibraryBookProject/mvnw.cmd
+
+projects/SpringProjects/LibraryBookProject/LibraryBookProject/mvnw
+
+projects/SpringProjects/LibraryBookProject/LibraryBookProject/.mvn/wrapper/maven-wrapper.jar
+
+projects/SpringProjects/LibraryBookProject/LibraryBookProject/.mvn/wrapper/maven-wrapper.properties
